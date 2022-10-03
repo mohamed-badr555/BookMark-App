@@ -108,15 +108,7 @@ function validationUrl2() {
     return false;
 
 }
-// console.log(del);
-// for(var i=0;i<del.length;++i){
-//     del[i].addEventListener("click", function(e){
-//         // alldata.splice(e.target.getAttribute("data_index"),1);
-//         // localStorage.setItem("alldata", JSON.stringify(alldata))
-//         // getDisplay();
-//         console.log(e.target.getAttribute("data_index"));
-//     })
-// }
+
 function deleted (index){
     alldata.splice(index,1);
     localStorage.setItem("alldata",JSON.stringify(alldata))
