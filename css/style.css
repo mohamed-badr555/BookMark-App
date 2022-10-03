@@ -1,0 +1,32 @@
+h1{
+    color: #AAA;
+    border-bottom: 1px solid #999;
+}
+.formData{
+    background-color: #EEEEEE;
+    width: 90%;
+}
+.error1,.error2{
+  
+    padding: 10px;
+    background-color: #ffb2b2;
+    color: #6d0000;
+    border: 1px solid #6d0000;
+    margin: auto;
+}
+input{
+    border: none;
+}
+.rowline{
+    background-image: linear-gradient(#EEE,#FFF);
+    margin: 20px 0;
+    padding: 20px;
+width: 90%;
+margin: auto;
+display: flex;
+align-items: center;
+}
+.rowline h2{
+    width: 30%;
+    color: #333;
+}
